@@ -1,0 +1,13 @@
+{
+    "salmon_version": "1.10.2",
+    "index": "salmon_index",
+    "libType": "A",
+    "unmatedReads": "raw_data/SRR10551660.fastq.gz",
+    "threads": "8",
+    "fldMean": "180",
+    "fldSD": "20",
+    "validateMappings": [],
+    "gcBias": [],
+    "output": "salmon_output/SRR10551660",
+    "auxDir": "aux_info"
+}

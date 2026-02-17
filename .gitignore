@@ -1,21 +1,20 @@
 # Raw sequencing data
-raw_data/*.fastq*
+input_data/*.fastq*
 
 # Reference files
-reference/*.fna
-reference/*.gtf
-reference/gentrome.fna
-reference/decoys.txt
+input_data/*.fna
+input_data/*.gtf
+input_data/gentrome.fna
+input_data/decoys.txt
 
 # Salmon index
 salmon_index/
 
-# FastQC zips (keep HTMLs)
-fastqc_results/*.zip
+# FastQC zips
+output_files/fastqc/*.zip
 
-# SLURM/log files
+# SLURM logs
 slurm/
-logs/
 
 # R temporary files
 .Rhistory
