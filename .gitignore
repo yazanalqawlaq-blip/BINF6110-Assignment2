@@ -1,0 +1,26 @@
+# Raw sequencing data
+raw_data/*.fastq*
+
+# Reference files
+reference/*.fna
+reference/*.gtf
+reference/gentrome.fna
+reference/decoys.txt
+
+# Salmon index
+salmon_index/
+
+# FastQC zips (keep HTMLs)
+fastqc_results/*.zip
+
+# SLURM/log files
+slurm/
+logs/
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
