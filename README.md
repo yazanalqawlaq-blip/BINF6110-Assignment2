@@ -2,9 +2,9 @@
 
 **Course:** BINF*6110 - Bioinformatics
 
-**Author:** Yazan Al-Qawlaq
+**Author:** Yazan Alqawlaq
 
-**Date:** February 2026
+**Date:** March 2026
 
 **Repository:** https://github.com/yazanalqawlaq-blip/BINF6110-Assignment2
 
