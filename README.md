@@ -1,8 +1,11 @@
 #  Transcriptome Analysis of Yeast Biofilm (Velum) Development During Biological Wine Aging
 
 **Course:** BINF*6110 - Bioinformatics
+
 **Author:** Yazan Al-Qawlaq
+
 **Date:** February 2026
+
 **Repository:** https://github.com/yazanalqawlaq-blip/BINF6110-Assignment2
 
 ---
