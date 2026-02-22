@@ -156,24 +156,31 @@ GSEA analysis, which evaluates all genes ranked by fold change rather than just 
 
 ---
 <img width="2100" height="1800" alt="Image" src="https://github.com/user-attachments/assets/76fc0b3c-0df0-4890-bf85-abc4207fccc1" />
+
 **Figure 1. PCA of Yeast Biofilm Samples by Development Stage.** Principal component analysis of variance-stabilized expression data for 9 samples across three stages of velum development. PC1 and PC2 capture the majority of expression variance and cleanly separate all three developmental stages, with biological replicates clustering tightly within each stage.
 
 <img width="2400" height="2100" alt="Image" src="https://github.com/user-attachments/assets/23853b51-e9c3-4130-b933-9f43b3f6e238" />
+
 **Figure 2. Volcano Plot of Differentially Expressed Genes (Mature vs. Early Biofilm).** Each point represents a gene, plotted by log2 fold change (x-axis) and statistical significance (y-axis). Red points indicate significantly upregulated genes in mature biofilm (log2FC > 1, padj < 0.05), blue points indicate downregulated genes, and gray points are not significant. Dashed lines indicate the fold change (±1) and significance (padj = 0.05) thresholds. The top 15 genes by adjusted p-value are labeled. *FLO11*, the key biofilm adhesin, is among the most significantly upregulated genes, while glycolytic enzymes (*TDH1*, *PGK1*, *PDC6*) and the low-affinity hexose transporter *HXT1* are among the most strongly downregulated.
 
 <img width="2400" height="3000" alt="Image" src="https://github.com/user-attachments/assets/b4a89320-2700-4d69-9fd9-9c5bc2eaa61f" />
+
 **Figure 3. Heatmap of the Top 30 Differentially Expressed Genes Across Biofilm Stages.** Row-scaled expression (VST) of the 30 most significant genes identified by the likelihood ratio test. Hierarchical clustering of columns separates samples cleanly by developmental stage. Two major gene clusters are visible: one comprising genes highly expressed in Early biofilm (including glycolytic genes *TDH1*, *PGK1*, and the fatty acid desaturase *OLE1*) and another comprising genes upregulated in Mature biofilm (including *FLO11*, cell wall mannoproteins *PIR1*, *CIS3*, and *SRL1*, and the hexose transporter *HXT17*).
 
 <img width="2700" height="2100" alt="Image" src="https://github.com/user-attachments/assets/f2be467d-fc1f-47f1-94ac-a2eaa6509f10" />
+
 **Figure 4. GO Biological Process Enrichment of DE Genes (Mature vs. Early).** Dotplot showing the top 15 enriched GO Biological Process terms among genes differentially expressed between mature and early biofilm. Point size reflects gene count and color reflects adjusted p-value. Transmembrane transport, energy metabolism, and organic acid metabolism are the most prominent enriched processes.
 
 <img width="3000" height="2400" alt="Image" src="https://github.com/user-attachments/assets/87fcad5e-44f8-4f75-8439-8e995e8da48d" />
+
 **Figure 5. GO Biological Process Enrichment Comparing Upregulated vs. Downregulated Genes.** compareCluster dotplot showing the top 10 enriched GO BP terms separately for genes upregulated and downregulated in mature versus early biofilm. This directional analysis reveals that mitochondrial translation and ribosome assembly processes are enriched among upregulated genes, while metabolic and catabolic processes dominate among downregulated genes.
 
 <img width="2700" height="2100" alt="Image" src="https://github.com/user-attachments/assets/15471344-0db0-4758-834a-3c26303ffe4d" />
+
 **Figure 6. KEGG Pathway Enrichment of DE Genes.** Dotplot showing enriched KEGG pathways among significantly differentially expressed genes.
 
 <img width="2400" height="1800" alt="Image" src="https://github.com/user-attachments/assets/180d57e0-0574-46d7-9500-9a93a840c433" />
+
 **Figure 7. MA Plot (Mature vs. Early Biofilm).** Mean expression (x-axis) versus log2 fold change (y-axis) for all genes. Red points indicate significantly DE genes (padj < 0.05). The symmetric spread of points above and below zero indicates balanced upregulation and downregulation. Highly expressed genes (right side) show more moderate fold changes, consistent with the biological expectation that housekeeping genes are less likely to be dramatically altered.
 
 ---
